@@ -1,6 +1,6 @@
 FROM resin/rpi-raspbian:jessie
 
-MAINTAINER Sascha Burku Burku <sascha_burku@yahoo.de>
+MAINTAINER Sascha Burku <sascha_burku@yahoo.de>
 
 RUN groupadd -r mysql && useradd -r -g mysql mysql
 
